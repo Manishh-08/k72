@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: HeroFont1;
+  src: url(../public/Fonts/Lausanne-300.woff2);
+}
+@font-face {
+  font-family: HeroFont2;
+  src: url(../public/Fonts/Lausanne-500.woff2);
+}
+
 body {
   background-color: #111;
 }
