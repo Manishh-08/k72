@@ -58,9 +58,9 @@ const Projects = () => {
       <div className='pt-[45vh]'>
         <h1 className='uppercase font-[HeroFont2] text-black text-[12vw]'>Projects</h1>
       </div>
-      <div className='-mt-18 lol'></div>
+      <div className='-lg:mt-18 lol'></div>
       {projectsArr.map(function(elem,idx){
-          return <div className='hero w-full h-123 flex gap-4 mb-4'>
+          return <div className='hero w-full h-123 flex lg:flex-row flex-col gap-4 mb-4'>
             <ProjectCard image1={elem.image1} image2={elem.image2}/>
           </div>
       })}

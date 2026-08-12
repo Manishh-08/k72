@@ -48,7 +48,7 @@ const Agency = () => {
 
   return (
     <div>
-      <div className='section1 py-1'>
+      <div className='section1 py-1 text-black'>
         <div ref={imageDivRef} className='absolute overflow-hidden h-[20vw] rounded-4xl w-[15vw] top-64 left-[30vw] '>
           <img ref={imageRef} className='h-full w-full object-cover' src="https://k72.ca/images/teamMembers/joel_480X640_3.jpg?w=480&h=640&fit=crop&s=1cadbf143b3aa916b1b414464acbb4d6" alt="" />
         </div>
