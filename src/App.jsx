@@ -3,14 +3,14 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Agency from './pages/Agency'
-import NavBar from './components/navigation/NavBar'
+import Navbar from './components/navigation/Navbar'
 import FullScreenNav from './components/navigation/FullScreenNav'
 
 const App = () => {
   return (
     <div>
       <div className='text-white overflow-x-hidden'>
-        <NavBar/>
+        <Navbar/>
         <FullScreenNav/>
         <Routes>
           <Route path='/' element={<Home />} />

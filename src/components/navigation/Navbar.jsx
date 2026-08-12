@@ -2,7 +2,7 @@ import React, { useContext, useRef } from 'react'
 import { NavbarContext, NavColorContext } from '../../context/NavContext';
 import { Link } from 'react-router-dom';
 
-const NavBar = () => {
+const Navbar = () => {
     const navGreenRef = useRef(null);
     const [navOpen,setNavOpen] = useContext(NavbarContext);
     const [navColor,setNavColor] = useContext(NavColorContext);
@@ -34,4 +34,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default Navbar
